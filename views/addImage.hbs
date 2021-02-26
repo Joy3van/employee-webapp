@@ -1,0 +1,34 @@
+        <div class="container">
+            <!-- Assignment 3 addition -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Add Image</h2>
+                    <br />
+                    <form
+                        action="/images/add"
+                        enctype="multipart/form-data"
+                        method="post"
+                    >
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="firstName">Image File:</label>
+                                    <input
+                                        name="imageFile"
+                                        class="form-control"
+                                        id="imageFile"
+                                        type="file"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <input
+                            class="btn btn-primary pull-right"
+                            type="submit"
+                            value="Add Image"
+                        /><br /><br /><br />
+                    </form>
+                </div>
+            </div>
+        </div>

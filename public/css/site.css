@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('/public/css/hover-min.css');
+
+article {
+    font-family: 'Satisfy', cursive;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.page-heading {
+    font-family: 'Dancing Script', cursive;
+    padding: 2em;
+    color: white;
+    text-align: center;
+    /* Linear Gradient generated with https://cssgradient.io/swatches/ */
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.page-heading h1 {
+    font-size: 3em;
+    margin: 0.3em;
+}
+
+.page-heading p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
